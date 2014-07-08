@@ -1,7 +1,7 @@
 week2-assign
 ============
 
-![alt tag]()
+![alt tag](https://raw.githubusercontent.com/ivipul/week3-assign/master/assign-week3.gif)
 
 
 No of hours: 6
