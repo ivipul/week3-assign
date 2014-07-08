@@ -11,6 +11,7 @@
 @interface MainViewController ()
 @property (weak, nonatomic) IBOutlet UIView *parentView;
 @property (weak, nonatomic) IBOutlet UIImageView *headline;
+@property (weak, nonatomic) IBOutlet UIImageView *image1;
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 - (IBAction)onPanGestureParent:(UIPanGestureRecognizer *)panGestureRecognizer;
 - (void)callHighlight;
@@ -113,11 +114,17 @@
 
 
 - (void)callHighlight{
-    [self performSelector:@selector(changeHighlight) withObject:nil afterDelay:3];
+    [self performSelector:@selector(changeHighlight) withObject:nil afterDelay:8];
 }
 
 - (void)changeHighlight{
     NSLog(@"changing");
+    [UIView transitionWithView:self.image1
+                      duration:0.2f
+                       options:UIViewAnimationOptionTransitionCrossDissolve
+                    animations:^{
+                        self.image1.image = [UIImage imageNamed:@"2"];;
+                    } completion:NULL];
     [self callHighlight];
 }
 

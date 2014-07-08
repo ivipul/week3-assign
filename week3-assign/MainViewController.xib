@@ -7,6 +7,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
             <connections>
                 <outlet property="headline" destination="U5X-ex-Z1f" id="vcY-Kq-3f7"/>
+                <outlet property="image1" destination="U5X-ex-Z1f" id="IJG-U6-WSx"/>
                 <outlet property="parentView" destination="Nvo-pB-NW2" id="Hdw-Dp-zFG"/>
                 <outlet property="scrollView" destination="hAf-lr-DCy" id="B9M-6y-TWg"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
