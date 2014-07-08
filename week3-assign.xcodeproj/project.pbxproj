@@ -19,6 +19,8 @@
 		5A5F4A73196C09C600DFBCD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5F4A5B196C09C600DFBCD2 /* UIKit.framework */; };
 		5A5F4A7B196C09C600DFBCD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A5F4A79196C09C600DFBCD2 /* InfoPlist.strings */; };
 		5A5F4A7D196C09C600DFBCD2 /* week3_assignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5F4A7C196C09C600DFBCD2 /* week3_assignTests.m */; };
+		5A5F4A89196C09E500DFBCD2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5F4A87196C09E500DFBCD2 /* MainViewController.m */; };
+		5A5F4A8A196C09E500DFBCD2 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A5F4A88196C09E500DFBCD2 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		5A5F4A78196C09C600DFBCD2 /* week3-assignTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "week3-assignTests-Info.plist"; sourceTree = "<group>"; };
 		5A5F4A7A196C09C600DFBCD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5A5F4A7C196C09C600DFBCD2 /* week3_assignTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = week3_assignTests.m; sourceTree = "<group>"; };
+		5A5F4A86196C09E500DFBCD2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5A5F4A87196C09E500DFBCD2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5A5F4A88196C09E500DFBCD2 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				5A5F4A67196C09C600DFBCD2 /* AppDelegate.m */,
 				5A5F4A69196C09C600DFBCD2 /* Images.xcassets */,
 				5A5F4A5E196C09C600DFBCD2 /* Supporting Files */,
+				5A5F4A86196C09E500DFBCD2 /* MainViewController.h */,
+				5A5F4A87196C09E500DFBCD2 /* MainViewController.m */,
+				5A5F4A88196C09E500DFBCD2 /* MainViewController.xib */,
 			);
 			path = "week3-assign";
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A5F4A62196C09C600DFBCD2 /* InfoPlist.strings in Resources */,
+				5A5F4A8A196C09E500DFBCD2 /* MainViewController.xib in Resources */,
 				5A5F4A6A196C09C600DFBCD2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A5F4A68196C09C600DFBCD2 /* AppDelegate.m in Sources */,
+				5A5F4A89196C09E500DFBCD2 /* MainViewController.m in Sources */,
 				5A5F4A64196C09C600DFBCD2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +447,7 @@
 				5A5F4A82196C09C600DFBCD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A5F4A83196C09C600DFBCD2 /* Build configuration list for PBXNativeTarget "week3-assignTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +456,7 @@
 				5A5F4A85196C09C600DFBCD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
